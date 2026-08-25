@@ -98,9 +98,8 @@ Requiere: Noctalia Shell, Hyprland, Hyprfm, Vscodium, gSlapper, Whatsie, VacuumT
 
 ---
 
-## 🛠️ Cambios e Integraciones Realizadas
+## Instalación
 
-* **Eliminación de conflictos de HyprMod:** Se retiraron atajos solapados de `hyprland-gui` para dejar un único archivo de binds unificado y mantenible.
-* **Uso de nemotecnia:** Reorganización de atajos para aplicaciones comunes (`SUPER + F` para Firefox, `SUPER + E` para archivos, `SUPER + W` para wallpapers, `SUPER + O` para VSCodium).
-* **Workspaces directos:** Se simplificó la navegación entre escritorios usando llamadas numéricas directas (1-10) en lugar de bucles o funciones relativas complejas.
-* **Separación de Pantalla Completa:** `F11` queda asignado a la pantalla completa completa de aplicación y `SUPER + D` a pantalla completa delimitada.
+```sh
+git clone https://IIssO8II/my-noctalia-hyprland-config.git ~/.config/hypr
+```
