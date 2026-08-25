@@ -2,6 +2,8 @@
 
 Configuración personalizada de atajos de teclado (`binds.lua`) integrados con **Noctalia Shell** para Hyprland. Diseñada para ser rápida, limpia e intuitiva mediante nemotecnia.
 
+Requiere: Noctalia Shell, Hyprland, Hyprfm, Vscodium, gSlapper, Whatsie, VacuumTube, Firefox, Kitty
+
 ---
 
 ## 🎹 Guía de Atajos de Teclado (Keybinds)
