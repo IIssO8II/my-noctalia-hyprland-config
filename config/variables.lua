@@ -5,6 +5,7 @@ FILE_MANAGER = "hyprfm"
 BROWSER      = "firefox"
 EDITOR       = "gnome-text-editor --new-window"
 CALCULATOR   = "gnome-calculator"
+OPEN_CODE    = "vscodium"
 
 -- Monitors
 MONITOR1 = ""

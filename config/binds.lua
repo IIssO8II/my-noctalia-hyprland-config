@@ -57,9 +57,9 @@ hl.bind(mainMod .. " + code:86", function() zoomfunction(0.3) end, { repeating =
 hl.bind(mainMod .. " + Return",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL))           -- Terminal Base
 hl.bind(mainMod .. " + F",          hl.dsp.exec_cmd(launchPrefix .. "firefox"))          -- F -> Firefox
 hl.bind(mainMod .. " + E",          hl.dsp.exec_cmd(launchPrefix .. FILE_MANAGER))       -- E -> Explorer / Archivos
-hl.bind(mainMod .. " + O",          hl.dsp.exec_cmd("flatpak run com.vscodium.codium"))   -- O -> Open Code (VSCodium)
-hl.bind(mainMod .. " + Y",          hl.dsp.exec_cmd("flatpak run rocks.shy.VacuumTube")) -- Y -> YouTube / Vacuumtube
-hl.bind(mainMod .. " + M",          hl.dsp.exec_cmd("flatpak run com.ktechpit.whatsie")) -- M -> Messaging / Whatsie
+hl.bind(mainMod .. " + O",          hl.dsp.exec_cmd(launchPrefix .. OPEN_CODE))   -- O -> Open Code (VSCodium)
+hl.bind(mainMod .. " + Y",          hl.dsp.exec_cmd("vacuumtube")) -- Y -> YouTube / Vacuumtube
+hl.bind(mainMod .. " + M",          hl.dsp.exec_cmd("whatsie")) -- M -> Messaging / Whatsie
 hl.bind(mainMod .. " + C",          hl.dsp.exec_cmd(launchPrefix .. CALCULATOR))         -- C -> Calculator
 hl.bind("XF86Calculator",           hl.dsp.exec_cmd(launchPrefix .. CALCULATOR))
 hl.bind("CONTROL + SHIFT + Escape", hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " -e btop"))
